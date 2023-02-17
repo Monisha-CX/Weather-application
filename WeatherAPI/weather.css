@@ -1,0 +1,29 @@
+/*{
+    border:solid black; 
+}*/
+
+.pp{
+    padding:12px;
+}
+
+.font{
+    font-size: small;
+}
+
+.weather-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .weather-scroll {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+  }
+
+  @media screen and (max-width:768px) {
+    .input-font{
+     font-size:small;
+    }
+  }
+  .background{
+    background-image:linear-gradient(rgb(127, 126, 126),rgb(117, 114, 114),rgb(171, 168, 168),rgb(205, 201, 201));
+  }
